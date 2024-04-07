@@ -1,0 +1,59 @@
+*{
+    background-color: #06064d;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    color: white;
+}
+.line{
+    border: 2px solid green;
+    width: 335px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    margin-top: 1rem;
+}
+.input{
+    position: relative;
+    top: 280px;
+    left: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+input{
+    width: 450px;
+    height: 3rem;
+    border: 2px solid white;
+    background-color: white;
+    font-size: large;
+    padding-left: 0.5rem;
+    border-radius: 4px;
+}
+.copy{
+    margin: 0.8rem;
+    cursor: pointer;
+}
+.generate{
+    position: relative;
+    top: 300px;
+    left: 100px;
+    margin-top: 0.5rem;
+}
+button{
+    padding: 0.5rem;
+    color: white;
+    background-color: seagreen;
+    border: 2px seagreen solid;
+    border-radius: 4px;
+    width: 230px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
