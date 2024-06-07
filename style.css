@@ -1,28 +1,23 @@
 *{
-    background-color: #06064d;
+ 
     font-family: sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 .heading{
-    position: relative;
-    top: 250px;
-    left: 100px;
-    color: white;
+
+  
 }
 .line{
     border: 2px solid green;
     width: 335px;
-    position: relative;
-    top: 250px;
-    left: 100px;
+
     margin-top: 1rem;
 }
 .input{
-    position: relative;
-    top: 280px;
-    left: 100px;
+
     display: flex;
     justify-content: flex-start;
 }
@@ -40,9 +35,7 @@ input{
     cursor: pointer;
 }
 .generate{
-    position: relative;
-    top: 300px;
-    left: 100px;
+
     margin-top: 0.5rem;
 }
 button{
@@ -51,9 +44,17 @@ button{
     background-color: seagreen;
     border: 2px seagreen solid;
     border-radius: 4px;
-    width: 230px;
+    width: max-content;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     cursor: pointer;
+}
+body{
+    overflow-x: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
 }
