@@ -21,7 +21,7 @@ function generatePassword(){
         password+=ran[randomChar];
     }
     inp.value=password;
-};
+}
 btn.addEventListener('click',generatePassword);
 
 document.querySelector(".copy").addEventListener('click',function(){
